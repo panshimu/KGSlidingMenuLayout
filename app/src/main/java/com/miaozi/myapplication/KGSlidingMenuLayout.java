@@ -73,6 +73,7 @@ public class KGSlidingMenuLayout extends HorizontalScrollView {
 
         //默认是关闭的 但是设置没有用 ? 为什么呢 因为这句话是在 onLayout之前执行的 所以要放到 onLayout方法中
         scrollTo(mMenuRightMargin,0);
+        
     }
 
     @Override
